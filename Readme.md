@@ -7,18 +7,18 @@ that information, we need to find those log information which is talks
 about the new block information.
 
 
-## Extract the details from those lines, the information like block
+- Extract the details from those lines, the information like block
 time including miliseconds, number of transactions etc.
 
-## suppose we need to tell the user for how many transactions on an
+- suppose we need to tell the user for how many transactions on an
 average are there in one second higest, extract the information from the
 log for the new blocks information.
 
-## Collect all the information in a list in python and then you are able
+- Collect all the information in a list in python and then you are able
 to give relevant results easily. Eg. there can be multiple blocks in a
 second as we have sub-second finality.
 
-## Search for every block and give result for the highest number of
+- Search for every block and give result for the highest number of
 transactions in a second in the specified time range. There will be two
 options, first, to pass the time range from the command line as
 parameters like we pass in linux commands. If no parameter is passed
